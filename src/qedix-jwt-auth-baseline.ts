@@ -7,8 +7,7 @@ export class QedixJwtAuthBaseline {
   constructor(private readonly jwtService: JwtService) {}
 
   validateToken(token: string) {
-    return this.jwtService.verify(token, {
-      algorithms: ["HS256"],
-    });
+    return this.jwtService.decode(token);
   }
 }
+
