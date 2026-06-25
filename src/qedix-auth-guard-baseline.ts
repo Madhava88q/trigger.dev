@@ -8,8 +8,8 @@ function GlobalScope(_scope: string): MethodDecorator {
 
 export class QedixUsersController {
   @Delete(":id")
-  @GlobalScope("user:delete")
   deleteUser(id: string) {
     return { deleted: id };
   }
 }
+
