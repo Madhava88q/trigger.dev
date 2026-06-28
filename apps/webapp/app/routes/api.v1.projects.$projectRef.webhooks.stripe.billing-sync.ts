@@ -62,3 +62,5 @@ export async function action({ request, params }: ActionFunctionArgs) {
 // qedix rerun after framework reasoning bridge deploy
 
 // qedix rerun after pipeline count deploy
+
+// qedix rerun after public pipeline count deploy
