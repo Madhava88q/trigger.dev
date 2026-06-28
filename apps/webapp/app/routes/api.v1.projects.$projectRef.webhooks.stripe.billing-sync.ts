@@ -64,3 +64,5 @@ export async function action({ request, params }: ActionFunctionArgs) {
 // qedix rerun after pipeline count deploy
 
 // qedix rerun after public pipeline count deploy
+
+// qedix rerun after quality gate fix deploy
